@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="tela_fundo">
+        <item name="android:background">@drawable/fundopreto</item>
+    </style>
+</resources>

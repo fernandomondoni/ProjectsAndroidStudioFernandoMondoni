@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    style="@style/tela_fundo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fernando Mondoni"
+        android:textColor="#ecf0f1"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:paddingTop="24dp"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rua: Maestro Carlos Panaro, 87 Jardim Glória – Americana - SP"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 anos, Solteiro"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="0dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fone: (19)3405-1203 (19)998250-6338"
+            android:layout_marginLeft="85dp"
+            android:autoLink="phone"
+            android:layout_marginTop="0dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail: nandomondoni000@hotmail.com"
+            android:layout_marginLeft="78dp"
+            android:autoLink="email"
+            android:layout_marginTop="0dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OBJETIVO: Atuar na área de desenvolvimento de sistemas."
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="30dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Formação Acadêmica:"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="30dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Análise e Desenvolvimentos de Sistemas – Faculdade de Tecnologia de Americana (FATEC) – (Jul/2020)."
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Histórico Profissional:"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="30dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	2016 – Instituto Salesiano Dom Bosco – Americana-SP"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Estagiário – janeiro/2016 a dezembro/2016"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="0dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Estagiário na área de suporte de eletrônica visando a ajuda e qualidade de ensino ao aluno;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Desenvolvimento de novos sistemas eletrônicos em PLCs Siemens para o aprimoramento no ensino;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Manutenções preventivas em PLCs Siemens;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Gestão em componentes e peças existentes para trabalho baseado em planilhas."
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="•	2016 – Aliseg Distribuidora – Americana-SP"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="30dp"
+        android:textSize="14.4sp"
+        android:textColor="#ecf0f1"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Auxiliar em Instalações Eletrônicas – março/2016 a setembro/2016"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:textSize="13sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Desenvolvimento a uma nova área de suporte técnico em reparos nos produtos vendidos de sistemas de segurança;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Suporte ao cliente em dúvidas técnicas em nossos produtos;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Reparos em placas eletrônicas em portões automatizados, sendo para motores monofásicos à trifásicos;"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•	Reparos em placas de sistemas de alarme e CFTV."
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="1dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cursos de Aprimoramento:"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="30dp"
+            android:textSize="14.4sp"
+            android:textColor="#ecf0f1"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

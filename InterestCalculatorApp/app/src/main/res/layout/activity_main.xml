@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="@drawable/gradient_background"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Label"
+            android:text="Calculo de juros" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/DadosTextView"
+                    android:layout_marginTop="50dp"
+                    android:text="Valor" />
+
+                <TextView
+                    style="@style/DadosTextView"
+                    android:layout_marginTop="20dp"
+                    android:text="Vencimento" />
+
+                <TextView
+                    style="@style/DadosTextView"
+                    android:layout_marginTop="20dp"
+                    android:text="Pagamento" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/valor_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="35dp"
+                    android:singleLine="true"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/vencimento_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:singleLine="true"
+                    android:inputType="date"/>
+
+                <EditText
+                    android:id="@+id/pagamento_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:singleLine="true"
+                    android:inputType="date"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Label"
+            android:layout_marginTop="30dp"
+            android:text="Juros" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/jurosTextField"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="3dp"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <RadioGroup
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/dinheiro_juros_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$" />
+
+                <RadioButton
+                    android:id="@+id/porcentagem_juros_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="%" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/dia_juros_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dia" />
+
+                <RadioButton
+                    android:id="@+id/mes_juros_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:text="Mês" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Label"
+            android:layout_marginTop="30dp"
+            android:text="Multa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/multa_TextField"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="3dp"
+                android:singleLine="true"
+                android:inputType="numberDecimal"/>
+
+            <RadioGroup
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/dinheiro_multa_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$" />
+
+                <RadioButton
+                    android:id="@+id/porcentagem_multa_radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:text="%" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/limpar_button"
+                style="@style/Button"
+                android:layout_marginLeft="10dp"
+                android:text="Limpar" />
+
+            <Button
+                android:id="@+id/salvar_button"
+                style="@style/Button"
+                android:layout_marginRight="10dp"
+                android:text="Salvar" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

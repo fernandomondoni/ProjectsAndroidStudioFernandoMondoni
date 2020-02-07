@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">InterestCalculator</string>
+    <!-- Tela 1 - Erros -->
+    <string name="erro_valor_EditText">Digite o valor</string>
+    <string name="erro_vencimento_EditText">Informe a data de vencimento</string>
+    <string name="erro_pagamento_Edit">Informe a data de pagamento</string>
+    <string name="erro_juros_EditText">Digite o juros</string>
+    <string name="erro_juros_dinheiroRadioButton">Informe a opção </string>
+    <string name="erro_juros_porcentagemRadioButton">Informe a opção</string>
+    <string name="erro_juros_Dia">Informe a opção</string>
+    <string name="erro_juros_Mes">Informe a opção</string>
+    <string name="erro_multa_EditText">Digite o valor</string>
+    <string name="erro_multa_dinheiroRadioButton">Informe a opção</string>
+    <string name="erro_multa_porcentagemRadioButton">Informe a opção</string>
+</resources>
